@@ -1,0 +1,53 @@
+My name is,Youssef and my teacher name is,shaheer
+
+split(",")
+My name is 
+Youssef and my teacher name is 
+shaheer 
+
+split(" ")
+My
+name
+is,Youssef 
+and 
+my
+
+string is being splitted into seperate parts which is delimited by comma. Each
+part is then assigned to fields of header record.
+
+
+0-------255 
+
+0 -> black 
+
+25 -> Dark Gray 
+
+middle value --> Gray
+
+215 -> Light Gray
+
+255 -> white 
+
+different ASCII charachters are assigned to each range of greyscale value. 
+the characters used give an effect suitable for grayscale value. 
+
+
+When the image is diplayed, it will not be the inteded image.
+So, in the Cat,25,59,A, the image width got shorter and its legth got bigger. 
+
+We have recieved an error: Image data error beacause the image is too big as we give it
+the value of 59. And there are too many lines with dots at the bottom of the image.
+
+Only the top part of image is diplayed and and bottom part is excluded showing
+only the cat's head without its body. 
+
+
+Each row pixels would now have column pixels
+
+
+
+#@B    @Ai 
+#@B    @Ai 
+#@!    #@!
+@A!    #@B
+@A!    #@B
